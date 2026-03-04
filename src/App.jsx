@@ -7,12 +7,15 @@ import Home from './Pages/Home'
 const App = () => {
   return (
   <BrowserRouter>
-    <Banner />
-    <Navbar />
+    <div className='bg-gray-900 m-0 overflow-hidden'>
+      <Banner />
+      <Navbar />
 
-      <Routes>
-        <Route path="/" element={<Home />} />
-      </Routes>
+        <Routes>
+          <Route path="/" element={<Home />} />
+        </Routes>
+
+    </div>
   </BrowserRouter>
   )
 }
