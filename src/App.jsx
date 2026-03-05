@@ -7,7 +7,7 @@ import Home from './Pages/Home'
 const App = () => {
   return (
   <BrowserRouter>
-    <div className='bg-gray-900 m-0 overflow-hidden'>
+    <div className='bg-slate-950 m-0 overflow-hidden'>
       <Banner />
       <Navbar />
 

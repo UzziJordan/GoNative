@@ -1,14 +1,27 @@
-import React from 'react'
-import Icon from '../Images/nativelogo.png'
+import React from "react";
+
+import HeroSection from "../Components/Home/HeroSection";
+import AboutSection from "../Components/Home/AboutSection";
+import FeaturesSection from "../Components/Home/FeaturesSection";
+import MarketSection from "../Components/Home/MarketSection";
+import HowItWorks from "../Components/Home/HowItWorks";
+import NBTCSection from "../Components/Home/NBTCSection";
+import TrustSpectrum from "../Components/Home/TrustSpectrum";
 
 const Home = () => {
   return (
-    <div className='mt-50 text-amber-50 flex flex-col justify-center items-center'>
-        <p className='flex items-center border-[0.5px] h-15 w-70 border-gray-500 rounded-2xl'>
-          <img src={Icon} alt="Native Logo" className='size-10'/><span className='text-2xl'>The Bitcoin Yield Hub</span>
-        </p>
-    </div>
-  )
-}
+    <div className="flex flex-col items-center">
 
-export default Home
+      <HeroSection />
+      <AboutSection />
+      <FeaturesSection />
+      <MarketSection />
+      <HowItWorks />
+      <NBTCSection />
+      <TrustSpectrum />
+
+    </div>
+  );
+};
+
+export default Home;

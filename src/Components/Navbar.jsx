@@ -4,7 +4,7 @@ import Logo from '../Images/logo2.svg';
 
 const Navbar = () => {
   return (
-    <nav className='mt-4 px-5 bg-gray-900 border-[0.5px] h-15 border-gray-500 rounded-2xl text-amber-50 flex justify-between gap-16 fixed w-[70vw] left-1/2 translate-x-[-50%] items-center'>
+    <nav className='mt-2 px-5 bg-transparent backdrop-blur-lg border-[0.5px] h-15 border-gray-500 rounded-2xl text-amber-50 flex justify-between gap-16 fixed w-[75vw] left-1/2 translate-x-[-50%] items-center'>
         <div className='w-30'>
             <NavLink to="/" className="hover:underline"> 
                 <img src={Logo} alt="Logo" />
