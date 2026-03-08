@@ -11,13 +11,16 @@ const HeroSection = () => {
         <span className="text-2xl">The Bitcoin Yield Hub</span>
       </p>
 
-      <div className="mt-15 text-center text-4xl font-bold">
-        <h1>
+      <div className="mt-15 text-center font-bold">
+        <h1 className="text-2xl lg:text-4xl">
           Earn Bitcoin Yield with a{" "}
-          <button className="bg-amber-600 h-15 w-50 border border-gray-500 rounded-2xl text-2xl">
+          <button className="bg-amber-600 border border-gray-500 rounded-2xl h-10 w-30 text-xl lg:h-15 lg:w-50 lg:text-3xl">
             Single Click
           </button>
         </h1>
+        <h2 className="text-lg lg:hidden">
+          No Bridging. No Hassle. Just Yield.
+        </h2>
       </div>
 
       <p className="mt-10 text-lg">

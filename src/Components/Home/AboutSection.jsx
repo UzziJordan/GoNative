@@ -10,11 +10,10 @@ const AboutSection = () => {
         </span>
       </p>
 
-      <p className="w-[45vw] text-gray-400 pt-10 mx-auto">
-        BYield is Native’s Bitcoin Yield Hub, offering a simple and secure way
-        to earn yield on Bitcoin without bridging, wrapping, or trusting
-        custodians.
-      </p>
+      <p className="text-lg text-[#a0a0b0] max-w-2xl mx-auto">
+            BYield is Native's Bitcoin Yield Hub, offering a simple and secure way to earn yield 
+            on Bitcoin without bridges, wrapping, or trusting custodians.
+        </p>
     </div>
   );
 };

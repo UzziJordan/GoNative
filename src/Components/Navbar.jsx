@@ -10,7 +10,7 @@ const Navbar = () => {
                 <img src={Logo} alt="Logo" />
             </NavLink>
         </div>
-        <div className='flex gap-5'>
+        <div className='hidden lg:flex gap-5'>
             <a href="https://x.com/Uzzijordan" target='_blank'>Community</a>
             <a href="https://github.com/UzziJordan" target='_blank'>Developers</a>
             <NavLink to="/FAQ" className="hover:underline">Resources</NavLink>
@@ -20,8 +20,16 @@ const Navbar = () => {
         </div>
 
         <a href="https://byield.gonative.cc/" target='_blank'>
-            <button className='bg-amber-600 h-9 w-25 rounded-l'>Try Testnet› </button>
+            <button className='hidden lg:block bg-amber-600 h-9 w-25 rounded-l'>Try Testnet› </button>
         </a>
+        
+        <div>
+            <button class="flex flex-col gap-1">
+            <span class="w-6 h-0.5 bg-white"></span>
+            <span class="w-6 h-0.5 bg-white"></span>
+            <span class="w-6 h-0.5 bg-white"></span>
+            </button>
+        </div>
 
 
     </nav>

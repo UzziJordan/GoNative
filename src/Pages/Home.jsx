@@ -7,6 +7,7 @@ import MarketSection from "../Components/Home/MarketSection";
 import HowItWorks from "../Components/Home/HowItWorks";
 import NBTCSection from "../Components/Home/NBTCSection";
 import TrustSpectrum from "../Components/Home/TrustSpectrum";
+import Roadmap from "../Components/Home/roadmap";
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
       <HowItWorks />
       <NBTCSection />
       <TrustSpectrum />
+      <Roadmap />
 
     </div>
   );
