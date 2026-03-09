@@ -24,7 +24,7 @@ const Navbar = () => {
         </a>
         
         <div>
-            <button className="flex flex-col gap-1">
+            <button className="flex flex-col gap-1 lg:hidden">
             <span className="w-6 h-0.5 bg-white"></span>
             <span className="w-6 h-0.5 bg-white"></span>
             <span className="w-6 h-0.5 bg-white"></span>
