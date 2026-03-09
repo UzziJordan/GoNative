@@ -51,7 +51,7 @@ const roadmap = [
 
 const Roadmap = () => {
   return (
-    <section className=" text-white py-20 px-6">
+    <section className=" text-white pt-20 px-6">
 
       {/* Title */}
       <div className="text-center mb-24">
@@ -67,7 +67,7 @@ const Roadmap = () => {
       <div className="relative max-w-6xl mx-auto">
 
         {/* Timeline Line */}
-        <div className="absolute left-4 md:left-1/2 top-0 h-full w-[2px] bg-gray-700"></div>
+        <div className="absolute left-4 md:left-1/2 top-0 h-full w-0.5 bg-gray-700"></div>
 
         {roadmap.map((step, index) => (
           <div key={index} className="relative mb-24">
@@ -101,6 +101,9 @@ const Roadmap = () => {
         ))}
 
       </div>
+
+         <div className="w-[70vw] h-0.5 bg-linear-to-r from-transparent via-orange-300 to-transparent mt-10 mb-0"></div>
+
     </section>
   );
 };
